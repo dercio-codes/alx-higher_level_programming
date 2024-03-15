@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def uppercase(s):
     """
     Prints the input string in uppercase, followed by a new line.
