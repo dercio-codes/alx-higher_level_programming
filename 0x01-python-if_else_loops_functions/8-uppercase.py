@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def uppercase(s):
+def uppercase(str):
     """
     Prints the input string in uppercase, followed by a new line.
 
@@ -9,7 +9,7 @@ def uppercase(s):
     Returns:
         None
     """
-    for char in s:
+    for char in str:
         # Convert lowercase letters to uppercase using ord() and chr()
         if 'a' <= char <= 'z':
             uppercase_char = chr(ord(char) - 32)
