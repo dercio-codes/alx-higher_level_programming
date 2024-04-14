@@ -13,3 +13,4 @@ def update_dictionary(a_dictionary, key, value):
     """
 
     a_dictionary[key] = value  # Direct assignment handles both update and addition
+    return a_dictionary
