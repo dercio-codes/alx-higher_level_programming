@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def uniq_add(my_list=[]):
     # Create a set from the list to remove duplicates
     unique_elements = set(my_list)
