@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+def raise_exception():
+  """Raises a TypeError."""
+  # Create a variable with a string value
+  text = "This is a string"
+  
+  # Attempt to perform an arithmetic operation on the string
+  try:
+    result = text + 1  # This will cause a TypeError
+  except TypeError:
+    pass  # Intentionally do nothing here, just let the exception propagate
